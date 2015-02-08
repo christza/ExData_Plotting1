@@ -28,7 +28,7 @@ par(mfrow=c(2,2))
   plot(quiz_subset$Sub_metering_1,type="l",ylab="Energy sub metering",xaxt="n",xlab="")
   lines(quiz_subset$Sub_metering_2,type="l",xaxt="n",col="red")
   lines(quiz_subset$Sub_metering_3,type="l",xaxt="n",col="blue")
-  legend("topright",col=c("black","red","blue"),lwd=1,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+  legend("topright",col=c("black","red","blue"),lwd=1,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n")
   axis(1,at=c(0,1440,2880),labels=c("Thu","Fri","Sat"))
   par(mar=c(4,4,1,1))
   
